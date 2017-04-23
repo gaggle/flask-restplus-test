@@ -6,7 +6,7 @@ from versioned_api import Api
 
 def main():
     app = Flask(__name__)
-    Api(app, {1: 'v1'})
+    Api(app, {1: 'v1', 2: 'v2'})
     app.run(debug=DEBUG)
 
 
